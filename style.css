@@ -1,5 +1,28 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main {
+    max-width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 10vh;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 300 !important;
+}
+
+.navbar-brand {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 700 !important;
+}
+
+.hero {
+    height: 90vh !important;
+    font-family: "Poppins", sans-serif !important;
 }
